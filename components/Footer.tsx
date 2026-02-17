@@ -1,4 +1,4 @@
-  import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Linkedin, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -28,7 +28,7 @@ const Footer = () => {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              Let's discuss how we can help you modernize your technology infrastructure 
+              Let's discuss how we can help you modernize your technology infrastructure
               and accelerate your digital transformation journey.
             </p>
           </div>
@@ -43,42 +43,43 @@ const Footer = () => {
             <div className="mb-6">
               <h3 className="text-2xl font-bold mb-4">Adam Software Services</h3>
               <p className="text-primary-foreground/80 leading-relaxed mb-6">
-                Innovating through people, process, and technology. We empower organizations 
+                Innovating through people, process, and technology. We empower organizations
                 to modernize their digital infrastructure and build solutions that drive real business value.
               </p>
             </div>
-            
+
             {/* Contact Info */}
             <div className="space-y-3 mb-6 ">
               <div className="flex items-center text-primary-foreground/80">
                 <Phone className="h-4 w-4 mr-3" />
-                <span>(555) 123-4567</span>
+                <span>+1 630-542-8248</span>
               </div>
               <div className="flex items-center text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
-                <span>info@adamsoftwareservices.com</span>
+                <span>sid@adamsoftwareservices.com</span>
               </div>
               <div className="flex items-start text-primary-foreground/80">
                 <MapPin className="w-10 mr-3 " />
-                <span>Global Headquarters
-                  Corporate Center, 1600 Golf Road, Suite 1200, Rolling Meadow, IL 60008 
-                  India Headquarters 
+                <span>Global Headquarters :
+                  1601 Bond St #205 Naperville, IL 60563
+                  <br />
+                  India Headquarters :
                   Corporate Annexe, 8th Floor, #802, Sonawala Lane, Goregoan East, Mumbai 400063</span>
               </div>
             </div>
 
             {/* Social Links */}
             <div className="flex gap-3">
-              <Button 
-                variant="default" 
-                size="sm" 
+              <Button
+                variant="default"
+                size="sm"
                 className="p-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               >
                 <Linkedin className="h-4 w-4" />
               </Button>
-              <Button 
-                variant="default" 
-                size="sm" 
+              <Button
+                variant="default"
+                size="sm"
                 className="p-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
               >
                 <Mail className="h-4 w-4" />
@@ -92,7 +93,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
                   >
@@ -109,7 +110,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
                   >
@@ -131,20 +132,20 @@ const Footer = () => {
               © {currentYear} Adam Software Services.
             </p>
             <div className="flex gap-6 text-sm">
-              <a 
-                href="#privacy" 
+              <a
+                href="#privacy"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors duration-200"
               >
                 Privacy Policy
               </a>
-              <a 
-                href="#terms" 
+              <a
+                href="#terms"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors duration-200"
               >
                 Terms of Service
               </a>
-              <a 
-                href="#cookies" 
+              <a
+                href="#cookies"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors duration-200"
               >
                 Cookie Policy
@@ -154,7 +155,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );  
+  );
 };
 
 export default Footer;
