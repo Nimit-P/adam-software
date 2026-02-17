@@ -31,7 +31,6 @@ export default function RootLayout({
         <NavigationBar />
         <main>
           {children}
-          <div
         </main>
       </body>
     </html>
