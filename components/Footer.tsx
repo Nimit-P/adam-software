@@ -41,7 +41,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-3">
             <div className="mb-6">
-              <h3 className="text-2xl font-bold mb-4">Adam Software Services</h3>
+              <h3 className="text-2xl font-bold mb-4">Diligent Square</h3>
               <p className="text-primary-foreground/80 leading-relaxed mb-6">
                 Innovating through people, process, and technology. We empower organizations
                 to modernize their digital infrastructure and build solutions that drive real business value.
@@ -56,15 +56,12 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
-                <span>sid@adamsoftwareservices.com</span>
+                <span>contact@diligentsquare.com</span>
               </div>
               <div className="flex items-start text-primary-foreground/80">
-                <MapPin className="w-10 mr-3 " />
-                <span>Global Headquarters :
-                  1601 Bond St #205 Naperville, IL 60563
-                  <br />
-                  India Headquarters :
-                  Corporate Annexe, 8th Floor, #802, Sonawala Lane, Goregoan East, Mumbai 400063</span>
+                <MapPin className="w-4 mr-3 " />
+                3935 Highknob Circle,
+                Naperville, Illinois 60564
               </div>
             </div>
 
@@ -129,7 +126,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm mb-4 md:mb-0">
-              © {currentYear} Adam Software Services.
+              © {currentYear} Diligent Square.
             </p>
             <div className="flex gap-6 text-sm">
               <a

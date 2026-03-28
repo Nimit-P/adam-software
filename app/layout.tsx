@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Adam Software",
-  description: "Adam Software",
+  title: "Diligent Square | Professional IT Services",
+  description: "Diligent Square - Modern Professional IT Services Company",
 };
 
 export default function RootLayout({
